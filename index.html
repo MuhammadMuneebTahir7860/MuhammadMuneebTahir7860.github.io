@@ -1,11 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./bootstrap-4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="./images/mf-logo.svg" alt="logo" width="50px" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mentorship</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="sayhello">Say Hello</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header End -->
+    <div class="container">
+        <h3 id="first-heading">Designer, Front-end Developer & Mentor</h3>
+        <p style="text-align: center;">I design and code beautifully simple things, and I love what I do</p>
+        <div><img src="./images/alvin.png" alt="men-photo" id="profile-photo"></div>
+        <div id="design-picture"><img src="./images/hero.png" alt="design-picture" class="img-fluid"></div>
+    </div>
+    <!-- profile picture section end -->
+    <div class="container-fluid bg-color">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 col-md-12 col-sm12">
+                <h4 id="bg-section-heading">Hi, I'm Matt. Nice to meet you.</h4>
+                <p id="bg-section-text">Since beginning my journey as a freelance designer
+                    nearly 10 yearsa ago, I've done remote work for agencies, consulted for
+                    startups, and collaborated with talented people to create digital products
+                    for both business and consumer use. I'm quietly confident, naturally curious,
+                    and perpetually working on improving my chops one design problem at a time.
+                </p>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row" id="card-main-container">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="cards">
+                    <img src="./images/designer.png" alt="designer">
+                    <h1 class="card-headings">Designer</h1>
+                    <p class="simple-text">I value simple content structure, clean design patterns, and thoughtful
+                        interactions.</p>
+                    <p class="color-text">Things I enjoy designing:</p>
+                    <p class="simple-text">UX, UI, Web, Mobile, Apps, Logos</p>
+                    <p class="color-text">Design Tools:</p>
+                    <p style="font-size: 18px;">Balsamiq Mockups</p>
+                    <p style="font-size: 18px;">Figma</p>
+                    <p style="font-size: 18px;">Invision</p>
+                    <p style="font-size: 18px;">Marvel</p>
+                    <p style="font-size: 18px;">Pen & Paper</p>
+                    <p style="font-size: 18px;">Sketch</p>
+                    <p style="font-size: 18px;">Webflow</p>
+                    <p style="font-size: 18px;">Zeplin</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="cards">
+                    <img src="./images/frontend.png" alt="Front-end">
+                    <h1 class="card-headings">Front-end Developer</h1>
+                    <p class="simple-text">I like to code things from scratch, and enjoy bringing ideas to life in the
+                        browser.</p>
+                    <p class="color-text">Languages I speak:</p>
+                    <p class="simple-text">HTML, Pug, Slim, CSS, Sass, Less</p>
+                    <p class="color-text">Dev Tools:</p>
+                    <p style="font-size: 18px;">Atom</p>
+                    <p style="font-size: 18px;">Bitbucket</p>
+                    <p style="font-size: 18px;">Bootstrap</p>
+                    <p style="font-size: 18px;">Bulma</p>
+                    <p style="font-size: 18px;">Codekit</p>
+                    <p style="font-size: 18px;">Codepen</p>
+                    <p style="font-size: 18px;">Github</p>
+                    <p style="font-size: 18px;">Gitlab</p>
+                    <p style="font-size: 18px;">Terminal</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="cards">
+                    <img src="./images/mentor.png" alt="mentor">
+                    <h1 class="card-headings">Mentor</h1>
+                    <p class="simple-text">I genuinely care about people, and love helping fellow designers work on
+                        their craft.</p>
+                    <p class="color-text">Experiences I draw from:</p>
+                    <p class="simple-text">UX/UI, Product design, Freelancing</p>
+                    <p class="color-text">Mentor Stats:</p>
+                    <p style="font-size: 18px;">5 years experience</p>
+                    <p style="font-size: 18px;">26 short courses</p>
+                    <p style="font-size: 18px;">42 bootcamps</p>
+                    <p style="font-size: 18px;">125+ students</p>
+                    <p style="font-size: 18px;">1,400+ mentor sessions</p>
+                    <p style="font-size: 18px;">60+ group critiques</p>
+                    <p style="font-size: 18px;">12,000+ comments</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card Section End -->
+    <div class="container">
+        <h1 id="work-heading">My Recent Work</h1>
+        <p id="recent-work-text">Here are a few design projects I've worked on recently. Want to see more? <a
+                href="#">Email me.</a></p>
+        <div class="row img-row">
+            <div class="col-lg-4 col-md-6 col-sm-12 text-center"><img src="./images/wfdesignbuild.png"
+                    alt="works-picture"  class="img-fluid"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12 text-center"><img src="./images/awg2020.png" alt="works-picture"
+                     class="img-fluid"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12 text-center"><img src="./images/chronicled.png" alt="works-picture"
+                     class="img-fluid"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12 text-center"><img src="./images/glcsolutions.png"
+                    alt="works-picture"  class="img-fluid"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12 text-center"><img src="./images/coupal.png" alt="works-picture"
+                class="img-fluid"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12 text-center"><img src="./images/wedlerengineering.png"
+                    alt="works-picture" class="img-fluid"></div>
+        </div>
+        <div class="row dribble-row">
+            <div class="center"><a href="#" id="dribble">See more on Driblle</a></div>
+        </div>
+    </div><br><br><br><br><br>
+    <hr>
+    <!-- Recent Work Section End -->
+    <div class="container-fluid">
+        <div class="row heading">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <h1>I'm proud to have collaborated with some awesome companies:</h1>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="container companies-container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <img src="./images/briteweb.png" class="rounded" alt="briteweb">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <img src="./images/goodkind.png" class="rounded" alt="goodkind">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <img src="./images/redstamp.png" class="rounded" alt="redstamp">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <img src="./images/domain7.png" class="rounded" alt="domain7">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <img src="./images/designlab.png" class="rounded" alt="designlab" width="270px">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <img src="./images/chronicled~1.png" class="rounded" alt="chronicled">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <img src="./images/bldrs.png" class="rounded" alt="bldrs" width="270px">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <img src="./images/serpmetrics.png" class="rounded" alt="serpmetrics">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Companies Container End -->
+    <div class="container-fluid bg-color">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 col-md-12 col-sm12">
+                <h4 id="bg-section-heading">My Startup Projects</h4>
+                <p id="bg-section-text">I'm a bit of a digital product junky. Over the years, I've used hundreds of web
+                    and mobile apps in different industries and verticals. Eventually, I decided that it would be a fun
+                    challenge to try designing and building my own.
+                </p>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" id="card-main-container">
+            <div class="col-lg-4 col-md-4 col-sm-12 projects-col">
+                <div class="project-cards">
+                    <img src="./images/kybercore.png" alt="kybercore">
+                    <p class="project-text">Next level plug and play chassis systems for custom do-it-yourself
+                        lightsaber builds.</p>
+                    <p class="project-color-text">In Deployement</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 projects-col">
+                <div class="project-cards">
+                    <img src="./images/houston.png" alt="houston">
+                    <p class="project-text">Simple feedback and engagement tools for teams that want to build and ship
+                        winning products.</p>
+                    <p class="project-color-text">In Deployement</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 projects-col">
+                <div class="project-cards">
+                    <img src="./images/basin.png" alt="basin">
+                    <p class="project-text">A powerful, easy-to-configure form backend for designers and developers. No
+                        coding required.</p>
+                    <p class="project-color-text2">www.usebasin.com</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 projects-col">
+                <div class="project-cards">
+                    <img src="./images/ylbuilders.png" alt="ylbuilders" width="160px">
+                    <p class="project-text">Beautifully simple websites for independent distributors of Young Living
+                        Essential Oils.</p>
+                    <p class="project-color-text2">www.ylbuilders.com</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 projects-col">
+                <div class="project-cards">
+                    <img src="./images/userforge.png" alt="userforge" width="160px">
+                    <p class="project-text">A collaborative tool for creating simple, effective user personas for design
+                        projects.</p>
+                    <p class="project-color-text2">www.userforge.com</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="project-cards">
+                    <img src="./images/dovetail.png" alt="dovetail">
+                    <p class="project-text">A space and member management solution for coworking communities both big
+                        and small.</p>
+                    <p class="project-color-text">Shutdown in 2017</p>
+                </div>
+            </div>
+        </div>
+        <h1 id="collaborating-heading">Interested in collaborating or investing?</h1>
+        <p id="collaborating-text">I’m always open to discussing product design work or partnership opportunities.</p>
+        <div class="row">
+            <div class="center"><a href="#" id="conversion">Start a conversion</a></div>
+        </div>
+    </div><br><br><br><br><br>
+    <hr>
+    <!-- Projects Section End -->
+    <div class="container">
+        <div id="testimonials-heading">
+            <h1>Testimonials</h1>
+        </div>
+        <div id="testmonials-text">
+            <p>People I've worked with have said some nice things...</p>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <img class="rounded slider-img" src="./images/pascal.png" alt="First slide">
+                    <p class="slider-text">“Matt was a real pleasure to work with and we look forward to working with him
+                        again. He’s
+                        definitely the kind of designer you can trust with a project from start to finish.”</p>
+                        <h4 class="slider-heading">Pascal Tremblay</h4>
+                        <p style="padding-bottom: 20px;">Creative Lead, Good Kind</p>
+                    </div>
+                <div class="carousel-item text-center">
+                    <img class="rounded slider-img" src="./images/alvin.png" alt="Second slide" width="350px" height="250px">
+                    <p class="slider-text">“Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design
+                        scenarios and the collaborative friction that's needed to produce excellent work.”</p>
+                        <h4 class="slider-heading">Alvin Engler</h4>
+                        <p style="padding-bottom: 20px;">Sr. Systems Developer, Domain7</p>
+                    </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div><br><br><br>
+    <!-- Testimonials End -->
+    <div class="container black-footer">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h1 id="start-project">Start a project</h1>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <p id="black-footer-text" >Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="center"><a href="#" id="do-this">Let's do this</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- Black-Footer-End -->
+    <div class="container-fluid footer-container">
+        <div class="container">
+            <div id="logo"><img src="./images/mf-logo-white.png" alt="logo"></div>
+            <div id="text"><p>Living, learning, & leveling up one day at a time.</p></div>
+            <div id="social-links">
+                <img src="./images/twitter.JPG" alt="twitter">
+                <img src="./images/web.JPG" alt="web">
+                <img src="./images/linkdin.JPG" alt="linkdin">
+                <img src="./images/angel.JPG" alt="angel.com">
+                <img src="./images/production.JPG" alt="production">
+                <img src="./images/mail.JPG" alt="mail">
+            </div>
+            <div id="copyright">
+                <p>Handcrafted by me &copy; twentytwenty</p>
+            </div>
+            <div id="made-with">
+                <img src="./images/made-with-bulma--white.png" alt="bulma" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
